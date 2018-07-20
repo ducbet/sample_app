@@ -24,8 +24,34 @@ vi:
         dẫn </a> về lập trình <a href='http://rubyonrails.org/'>Ruby on
         Rails</a>. Đây là hướng dẫn làm một ứng dụng mẫu."
   users:
+    name: "Tên"
+    email: "Email"
+    pass: "Mật khẩu"
+    confirm: "Xác nhận mật khẩu"
     new:
       info_html: "Đây sẽ là trang đăng ký cho thành viên mới."
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "Tên không được để trống"
+            email:
+              blank: "Email không được để trống"
+              invalid: "Email không hợp lệ"
+              taken: "Email đã tồn tại"
+            password:
+              blank: "Mật khẩu không được để trống"
+              too_short: "Mật khẩu quá ngắn"
+            password_confirmation:
+              confirmation: "Mật khẩu không trùng khớp"
+  errors:
+    format: "%{message}"
+  shared:
+    error_messages:
+      message: "Form của bạn có "
+      error: " lỗi"
 
   title: "Welcome to the Sample App"
   about: "Giới thiệu"
@@ -36,3 +62,6 @@ vi:
   news: "Tin tức"
   signup: "Đăng ký"
   title: "Ứng dụng mẫu của Ruby on Rails Tutorial"
+  welcome: "Chào mừng đến với ứng dụng mẫu!"
+  no_user: "Nguời dùng không tồn tại"
+

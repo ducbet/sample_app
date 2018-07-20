@@ -26,8 +26,34 @@ en:
        to teach web development with <a href='http://rubyonrails.org/'>Ruby on
        Rails</a>. This is the sample application for the tutorial."
   users:
+    name: "Name"
+    email: "Email"
+    pass: "Password"
+    confirm: "Confirmation"
     new:
       info_html: "This will be a signup page for new users."
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "Name can't be blank"
+            email:
+              blank: "Email can't be blank"
+              invalid: "Email is invalid"
+              taken: "Email has already been taken"
+            password:
+              blank: "Password can't be blank"
+              too_short: "Password too short (minimum is 6 characters)"
+            password_confirmation:
+              confirmation: "Password confirmation doesn't match"
+  errors:
+    format: "%{message}"
+  shared:
+    error_messages:
+      message: "The form contains "
+      error: " errors"
 
   title: "Chào mừng đến với trang chủ"
   about: "About"
@@ -38,3 +64,5 @@ en:
   news: "News"
   signup: "Sign up"
   title: "Ruby on Rails Tutorial Sample App"
+  welcome: "Welcome to the Sample App!"
+  no_user: "User not exist"
