@@ -1,0 +1,37 @@
+vi:
+  layouts:
+    footer:
+      author_html: "Hướng dẫn <a href='http://www.railstutorial.org/'>Ruby on
+        Rails </a>bởi <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
+  static_pages:
+    home:
+      welcome: "Chào mừng bạn đến với Sample App"
+      signup_now: "Đăng ký ngay!"
+      info_html: "Đây là trang chủ của ứng dụng mẫu
+        <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial</a>."
+    help:
+      info_html: "Nhận trợ giúp về Ruby on Rails
+        <a href='http://www.railstutorial.org/help'> phần trợ giúp Rails</a>.
+        Để nhận sự trợ giúp về ứng dụng mẫu, xem cuốn
+        <a href='http://www.railstutorial.org/book'>Ruby on Rails Tutorial.</a>"
+    contact:
+      info_html: "Liên hệ thông tin về ứng dụng mẫu tại
+        <a href='http://www.railstutorial.org/contact'>trang liên hệ</a>."
+    about:
+      info_html: "<a href='http://www.railstutorial.org/'>Hướng dẫn Ruby on
+        Rails </a>là một <a href='http://www.railstutorial.org/book'>cuốn sách
+        </a> và <a href='http://screencasts.railstutorial.org/'>loạt bài hướng
+        dẫn </a> về lập trình <a href='http://rubyonrails.org/'>Ruby on
+        Rails</a>. Đây là hướng dẫn làm một ứng dụng mẫu."
+  users:
+    new:
+      info_html: "Đây sẽ là trang đăng ký cho thành viên mới."
+
+  title: "Welcome to the Sample App"
+  about: "Giới thiệu"
+  contact: "Liên hệ"
+  help: "Trợ giúp"
+  home: "Trang chủ"
+  login: "Đăng nhập"
+  news: "Tin tức"
+  signup: "Đăng ký"
