@@ -50,6 +50,7 @@ vi:
       pass: "Mật khẩu"
       new_user: "Thành viên mới? "
       signup_now: "Đăng ký ngay!"
+      remember_me: "Tự động đăng nhập"
     create:
       login_fail: "Email hoặc mật khẩu không chính xác."
 
