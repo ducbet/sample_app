@@ -1,6 +1,18 @@
 vi:
   layouts:
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      logout: "Đăng xuất"
+      profile: "Hồ sơ cá nhân"
+      settings: "Cài đặt"
+      account: "Tài khoản"
+      users: "Người dùng"
     footer:
+      contact: "Liên hệ"
+      about: "Giới thiệu"
+      news: "Tin tức"
       author_html: "Hướng dẫn <a href='http://www.railstutorial.org/'>Ruby on
         Rails </a>bởi <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
   static_pages:
@@ -29,7 +41,18 @@ vi:
     pass: "Mật khẩu"
     confirm: "Xác nhận mật khẩu"
     new:
+      create_account: "Tạo tài khoản"
       info_html: "Đây sẽ là trang đăng ký cho thành viên mới."
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Email"
+      pass: "Mật khẩu"
+      new_user: "Thành viên mới? "
+      signup_now: "Đăng ký ngay!"
+    create:
+      login_fail: "Email hoặc mật khẩu không chính xác."
+
   activerecord:
     errors:
       models:
@@ -53,15 +76,7 @@ vi:
       message: "Form của bạn có "
       error: " lỗi"
 
-  title: "Welcome to the Sample App"
-  about: "Giới thiệu"
-  contact: "Liên hệ"
-  help: "Trợ giúp"
-  home: "Trang chủ"
-  login: "Đăng nhập"
-  news: "Tin tức"
   signup: "Đăng ký"
   title: "Ứng dụng mẫu của Ruby on Rails Tutorial"
   welcome: "Chào mừng đến với ứng dụng mẫu!"
   no_user: "Nguời dùng không tồn tại"
-
