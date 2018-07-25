@@ -42,9 +42,21 @@ en:
     email: "Email"
     pass: "Password"
     confirm: "Confirmation"
+    user:
+      delete: "Detele"
+      sure?: "You sure?"
+    index:
+      all_users: "All users"
+      previous: "Previous"
+      next: "Next"
     new:
       create_account: "Create my account"
       info_html: "This will be a signup page for new users."
+    edit:
+      edit: "Edit user"
+      save: "Save changes"
+      update: "Update your profile"
+      change: "Change"
   sessions:
     new:
       login: "Login"
@@ -53,8 +65,6 @@ en:
       new_user: "New user? "
       signup_now: "Sign up now!"
       remember_me: "Remember me"
-    create:
-      login_fail: "Invalid email/password combination."
   activerecord:
     errors:
       models:
@@ -77,8 +87,13 @@ en:
     error_messages:
       message: "The form contains "
       error: " errors"
+  flash:
+    pls_login: "Please log in."
+    login_fail: "Invalid email/password combination."
+    welcome: "Welcome to the Sample App!"
+    no_user: "User not exist"
+    updated: "Profile updated"
+    deleted: "User deleted"
 
   signup: "Sign up"
   title: "Ruby on Rails Tutorial Sample App"
-  welcome: "Welcome to the Sample App!"
-  no_user: "User not exist"

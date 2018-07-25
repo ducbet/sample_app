@@ -1,4 +1,11 @@
 vi:
+  views:
+    pagination:
+      first: "&laquo; Trang đầu tiên"
+      last: "Trang cuối &raquo;"
+      previous: "&lsaquo; Truớc"
+      next: "Tiếp &rsaquo;"
+      truncate: "&hellip;"
   layouts:
     header:
       home: "Trang chủ"
@@ -40,9 +47,21 @@ vi:
     email: "Email"
     pass: "Mật khẩu"
     confirm: "Xác nhận mật khẩu"
+    user:
+      delete: "Xóa tài khoản"
+      sure?: "Chắc không?"
+    index:
+      all_users: "Danh sách người dùng"
+      previous: "Truớc"
+      next: "Tiếp"
     new:
       create_account: "Tạo tài khoản"
       info_html: "Đây sẽ là trang đăng ký cho thành viên mới."
+    edit:
+      edit: "Thay đổi thông tin cá nhân"
+      save: "Lưu thay đổi"
+      update: "Cập nhật thông tin cá nhân"
+      change: "Thay đổi"
   sessions:
     new:
       login: "Đăng nhập"
@@ -51,9 +70,6 @@ vi:
       new_user: "Thành viên mới? "
       signup_now: "Đăng ký ngay!"
       remember_me: "Tự động đăng nhập"
-    create:
-      login_fail: "Email hoặc mật khẩu không chính xác."
-
   activerecord:
     errors:
       models:
@@ -76,8 +92,14 @@ vi:
     error_messages:
       message: "Form của bạn có "
       error: " lỗi"
+  flash:
+    pls_login: "Vui lòng đăng nhập."
+    login_fail: "Email hoặc mật khẩu không chính xác."
+    welcome: "Chào mừng đến với ứng dụng mẫu!"
+    no_user: "Nguời dùng không tồn tại"
+    updated: "Đã cập nhật hồ sơ"
+    deleted: "Đã xóa tài khoản"
 
   signup: "Đăng ký"
   title: "Ứng dụng mẫu của Ruby on Rails Tutorial"
-  welcome: "Chào mừng đến với ứng dụng mẫu!"
-  no_user: "Nguời dùng không tồn tại"
+
