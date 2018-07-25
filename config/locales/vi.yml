@@ -80,6 +80,10 @@ vi:
       save: "Lưu thay đổi"
       update: "Cập nhật thông tin cá nhân"
       change: "Thay đổi"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
   sessions:
     new:
       login: "Đăng nhập"
@@ -118,6 +122,9 @@ vi:
     user_info:
       view_profile: "Xem hồ sơ"
       micropost: "bài đăng"
+    show_follow:
+      microposts: "Bài đăng:"
+      view_profile: "Xem hồ sơ"
   flash:
     pls_login: "Vui lòng đăng nhập."
     login_fail: "Email hoặc mật khẩu không chính xác."
@@ -155,3 +162,5 @@ vi:
   signup: "Đăng ký"
   title: "Ứng dụng mẫu của Ruby on Rails Tutorial"
   less_than: "Ảnh phải nhỏ hơn "
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"

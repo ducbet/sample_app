@@ -7,9 +7,13 @@
         <%= @user.name %>
       </h1>
     </section>
+    <section class="stats">
+      <%= render "shared/stats" %>
+    </section>
   </aside>
   <div class="col-md-8">
-    <% if @user.feed.any? %>
+    <%= render "follow_form" if logged_in? %>
+    <% if @user.microposts.any? %>
       <h3><%= t ".microposts" %> (<%= @user.feed.count %>)</h3>
       <ol class="microposts">
         <%= render @microposts %>

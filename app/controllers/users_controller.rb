@@ -25,8 +25,11 @@ class UsersController < ApplicationController
 
   def show
     redirect_to root_url && return unless @user.activated?
-    @microposts = @user.feed.page(params[:page])
+    @microposts = @user.microposts.page(params[:page])
                        .per Settings.micropost_per_page
+    @build_relationship = current_user.active_relationships.build
+    @find_relationship = current_user.active_relationships
+                                     .find_by followed_id: @user.id
   end
 
   def edit; end
@@ -59,13 +62,5 @@ class UsersController < ApplicationController
 
   def admin_user
     redirect_to root_url unless current_user.admin?
-  end
-
-  def find_user
-    @user = User.find_by id: params[:id]
-
-    return if @user
-    flash[:danger] = t "flash.no_user"
-    redirect_to root_url
   end
 end
