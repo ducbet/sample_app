@@ -1,4 +1,16 @@
 en:
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Previous"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
+  microposts:
+    posted: "Posted"
+    ago: "ago"
+    delete: "Delete"
+    sure?: "You sure?"
   layouts:
     header:
       help: "Help"
@@ -32,6 +44,7 @@ en:
       info_html: "The <a href='http://www.railstutorial.org/'>Ruby on Rails
         Tutorial</a> by <a href='http://www.michaelhartl.com/'>
         Michael Hartl</a>"
+      feed: "Micropost Feed"
     help:
       info_html: "Get help on the Ruby on Rails Tutorial at
         the <a href='http://www.railstutorial.org/help'>Rails Tutorial help
@@ -62,6 +75,8 @@ en:
     new:
       create_account: "Create my account"
       info_html: "This will be a signup page for new users."
+    show:
+      microposts: "Microposts"
     edit:
       edit: "Edit user"
       save: "Save changes"
@@ -98,6 +113,13 @@ en:
     error_messages:
       message: "The form contains "
       error: " errors"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      post: "Post"
+      over_size: "Maximum file size is "
+    user_info:
+      view_profile: "View my profile"
+      micropost: "micropost"
   flash:
     pls_login: "Please log in."
     login_fail: "Invalid email/password combination."
@@ -114,6 +136,8 @@ en:
     email_not_found: "Email address not found."
     reset_pass_email_sent: "Email sent with password reset instructions."
     expired: "Password reset has expired."
+    micropost_created: "Micropost created!"
+    micropost_deleted: "Micropost deleted"
   user_mailer:
     account_activation:
       subject: "Account activation"
@@ -128,6 +152,8 @@ en:
       expire_date: "This link will expire in two hours."
       ignore: "If you did not request your password to be reset,
         please ignore this email and your password will stay as it is."
-
+  js:
+    file_too_big: "Maximum file size is 5MB. Please choose a smaller file."
   signup: "Sign up"
   title: "Ruby on Rails Tutorial Sample App"
+  less_than: "should be less than "
