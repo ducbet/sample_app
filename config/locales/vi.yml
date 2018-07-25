@@ -96,9 +96,23 @@ vi:
     pls_login: "Vui lòng đăng nhập."
     login_fail: "Email hoặc mật khẩu không chính xác."
     welcome: "Chào mừng đến với ứng dụng mẫu!"
-    no_user: "Nguời dùng không tồn tại"
-    updated: "Đã cập nhật hồ sơ"
-    deleted: "Đã xóa tài khoản"
+    no_user: "Nguời dùng không tồn tại."
+    updated: "Đã cập nhật hồ sơ."
+    deleted: "Đã xóa tài khoản."
+    pls_check_mail: "Làm ơn kiểm tra email để kích họat tài khoản."
+    activated: "Tài khoản đã được kích hoạt!"
+    invalid_activation_link: "Đường dẫn kích hoạt không hợp lệ."
+    not_activated: "Tài khoản chưa đưọc kích họat. Làm ơn kiểm tra email
+      để kích họat tài khoản."
+  user_mailer:
+    account_activation:
+      subject: "Kích họat tài khoản"
+      greeting: "Xin chào"
+      content: "Chào mừng đến với Sample App! Nhấn vào đường dẫn bên duới
+        để kích họat tài khoản của bạn:"
+      activate: "Kích họat tài khoản"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
 
   signup: "Đăng ký"
   title: "Ứng dụng mẫu của Ruby on Rails Tutorial"

@@ -91,9 +91,23 @@ en:
     pls_login: "Please log in."
     login_fail: "Invalid email/password combination."
     welcome: "Welcome to the Sample App!"
-    no_user: "User not exist"
-    updated: "Profile updated"
-    deleted: "User deleted"
+    no_user: "User not exist."
+    updated: "Profile updated."
+    deleted: "User deleted."
+    pls_check_mail: "Please check your email to activate your account."
+    activated: "Account activated!"
+    invalid_activation_link: "Invalid activation link."
+    not_activated: "Account not activated. Check your email
+      for the activation link."
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      greeting: "Hi"
+      content: "Welcome to the Sample App! Click on the link below
+        to activate your account:"
+      activate: "Activate"
+    password_reset:
+      subject: "Reset password"
 
   signup: "Sign up"
   title: "Ruby on Rails Tutorial Sample App"
