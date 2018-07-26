@@ -22,6 +22,16 @@ vi:
       news: "Tin tức"
       author_html: "Hướng dẫn <a href='http://www.railstutorial.org/'>Ruby on
         Rails </a>bởi <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
+  password_resets:
+    edit:
+      reset: "Đặt lại mật khẩu"
+      update: "Cập nhật mật khẩu"
+      pass: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+    new:
+      forgot: "Quên mật khẩu"
+      email: "Email"
+      submit: "Gửi"
   static_pages:
     home:
       welcome: "Chào mừng bạn đến với Sample App"
@@ -70,6 +80,7 @@ vi:
       new_user: "Thành viên mới? "
       signup_now: "Đăng ký ngay!"
       remember_me: "Tự động đăng nhập"
+      forgot: "(quên mật khẩu?)"
   activerecord:
     errors:
       models:
@@ -104,6 +115,10 @@ vi:
     invalid_activation_link: "Đường dẫn kích hoạt không hợp lệ."
     not_activated: "Tài khoản chưa đưọc kích họat. Làm ơn kiểm tra email
       để kích họat tài khoản."
+    password_resetted: "Mật khẩu đã được cập nhật."
+    email_not_found: "Không tìm thấy email."
+    reset_pass_email_sent: "Đã gửi email hướng dẫn đặt lại mật khẩu."
+    expired: "Đã quá hạn đặt lại mật khẩu. Vui lòng làm lại."
   user_mailer:
     account_activation:
       subject: "Kích họat tài khoản"
@@ -113,6 +128,11 @@ vi:
       activate: "Kích họat tài khoản"
     password_reset:
       subject: "Đặt lại mật khẩu"
+      reset: "Đặt lại mật khẩu"
+      click_link_below: "Làm ơn nhấn vào link bên dưới để đặt lại mật khẩu:"
+      expire_date: "Link này sẽ hết hạn sau 2 tiếng."
+      ignore: "Nếu không phải bạn yêu cầu đặt lại mật khẩu,
+        làm ơn hãy bỏ qua email này và mật khẩu của bạn sẽ không bị thay đổi."
 
   signup: "Đăng ký"
   title: "Ứng dụng mẫu của Ruby on Rails Tutorial"

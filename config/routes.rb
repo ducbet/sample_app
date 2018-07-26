@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     post "/login", to: "sessions#create"
     post "/signup", to: "users#create"
     resources :account_activations, only: [:edit]
+    resources :password_resets, only: [:new, :create, :edit, :update]
     resources :users
     root "static_pages#home"
   end
