@@ -5,7 +5,8 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.order(:name).page params[:page]
+    @users = User.where(activated: true).order(:name)
+                 .page(params[:page]).per_page Settings.index_per_page
   end
 
   def new
@@ -15,15 +16,17 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "flash.welcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "flash.pls_check_mail"
+      redirect_to root_url
     else
       render :new
     end
   end
 
-  def show; end
+  def show
+    redirect_to root_url && return unless @user.activated?
+  end
 
   def edit; end
 
