@@ -4,3 +4,8 @@ pass_min_length: 6
 gravatar_size: 80
 gravatar_size_index_page: 50
 index_per_page: 5
+content_max_length: 140
+image_max_size_mb: 5
+micropost_per_page: 4
+image_max_width: 400
+image_max_height: 400

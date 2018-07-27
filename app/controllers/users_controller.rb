@@ -5,8 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.where(activated: true).order(:name)
-                 .page(params[:page]).per_page Settings.index_per_page
+    @users = User.order_name.page(params[:page]).per Settings.index_per_page
   end
 
   def new
@@ -26,6 +25,8 @@ class UsersController < ApplicationController
 
   def show
     redirect_to root_url && return unless @user.activated?
+    @microposts = @user.feed.page(params[:page])
+                       .per Settings.micropost_per_page
   end
 
   def edit; end
@@ -50,13 +51,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t "flash.pls_login"
-    redirect_to login_url
   end
 
   def correct_user

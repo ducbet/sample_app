@@ -6,6 +6,11 @@ vi:
       previous: "&lsaquo; Truớc"
       next: "Tiếp &rsaquo;"
       truncate: "&hellip;"
+  microposts:
+    posted: "Đã đăng"
+    ago: "truớc"
+    delete: "Xóa"
+    sure?: "Bạn chắc không?"
   layouts:
     header:
       home: "Trang chủ"
@@ -38,6 +43,7 @@ vi:
       signup_now: "Đăng ký ngay!"
       info_html: "Đây là trang chủ của ứng dụng mẫu
         <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial</a>."
+      feed: "Các bài đăng"
     help:
       info_html: "Nhận trợ giúp về Ruby on Rails
         <a href='http://www.railstutorial.org/help'> phần trợ giúp Rails</a>.
@@ -67,6 +73,8 @@ vi:
     new:
       create_account: "Tạo tài khoản"
       info_html: "Đây sẽ là trang đăng ký cho thành viên mới."
+    show:
+      microposts: "Các bài đăng"
     edit:
       edit: "Thay đổi thông tin cá nhân"
       save: "Lưu thay đổi"
@@ -103,6 +111,13 @@ vi:
     error_messages:
       message: "Form của bạn có "
       error: " lỗi"
+    micropost_form:
+      placeholder: "Bạn đang nghĩ gì?"
+      post: "Đăng"
+      over_size: "Maximum file size is "
+    user_info:
+      view_profile: "Xem hồ sơ"
+      micropost: "bài đăng"
   flash:
     pls_login: "Vui lòng đăng nhập."
     login_fail: "Email hoặc mật khẩu không chính xác."
@@ -119,6 +134,8 @@ vi:
     email_not_found: "Không tìm thấy email."
     reset_pass_email_sent: "Đã gửi email hướng dẫn đặt lại mật khẩu."
     expired: "Đã quá hạn đặt lại mật khẩu. Vui lòng làm lại."
+    micropost_created: "Đã đăng bài viết!"
+    micropost_deleted: "Đã xóa bài đăng"
   user_mailer:
     account_activation:
       subject: "Kích họat tài khoản"
@@ -133,7 +150,8 @@ vi:
       expire_date: "Link này sẽ hết hạn sau 2 tiếng."
       ignore: "Nếu không phải bạn yêu cầu đặt lại mật khẩu,
         làm ơn hãy bỏ qua email này và mật khẩu của bạn sẽ không bị thay đổi."
-
+  js:
+    file_too_big: "File quá lớn. Vui lòng chọn lại file khác."
   signup: "Đăng ký"
   title: "Ứng dụng mẫu của Ruby on Rails Tutorial"
-
+  less_than: "Ảnh phải nhỏ hơn "
