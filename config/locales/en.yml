@@ -82,6 +82,10 @@ en:
       save: "Save changes"
       update: "Update your profile"
       change: "Change"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
   sessions:
     new:
       login: "Login"
@@ -120,6 +124,10 @@ en:
     user_info:
       view_profile: "View my profile"
       micropost: "micropost"
+    show_follow:
+      microposts: "Microposts: "
+      view_profile: "view my profile"
+      view_profile: "View my profile"
   flash:
     pls_login: "Please log in."
     login_fail: "Invalid email/password combination."
@@ -157,3 +165,5 @@ en:
   signup: "Sign up"
   title: "Ruby on Rails Tutorial Sample App"
   less_than: "should be less than "
+  following: "Following"
+  followers: "Followers"
