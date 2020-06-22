@@ -21,8 +21,7 @@ gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 gem 'rails-i18n'
 gem 'sass-rails', '>= 6'
-gem 'pg', '>= 0.18', '< 2.0'
-gem 'sqlite3'
+gem 'pg'
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
 
@@ -37,3 +36,4 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'web-console', '>= 3.3.0'
 end
+
