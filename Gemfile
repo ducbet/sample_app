@@ -7,7 +7,7 @@ gem 'bcrypt'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'bootstrap-kaminari-views'
 gem 'bootstrap-sass', '~> 3.4.1'
-gem 'carrierwave', '2.1.0'
+gem 'carrierwave', '2.1.1'
 gem 'coffee-rails', '~> 5.0.0'
 gem 'config'
 gem 'faker'
